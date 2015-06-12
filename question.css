@@ -9,6 +9,7 @@
     height: 250px;
     margin-left: 5px;
     overflow: hidden;
+    margin-top: 10px;
     
 }
 
@@ -21,16 +22,20 @@
     margin-left: 5px;
     bottom: 10px;
     position: relative;
-    left: 2px;
+    left: 0px;
+    top: 20px;
     
 }
 
 #comments{
     font-family: 'Open Sans';
-    display: block;
-    margin-left: 650px;
+    display: inline-block;
     word-wrap: break-word;
+    width: 1225px;
+    margin-bottom: 0px;
 }
+
+
 
 
 
