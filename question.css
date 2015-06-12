@@ -1,0 +1,41 @@
+.question{
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+    
+}
+
+#message{
+    width: 50%;
+    height: 250px;
+    margin-left: 5px;
+    overflow: hidden;
+    
+}
+
+::-webkit-input-placeholder {
+    font-family: 'Open Sans';
+    
+}
+    
+
+#submit{
+    margin-left: 5px;
+    
+}
+
+#logs{
+    font-family: 'Open Sans';
+    display: inline-block;
+    margin-left: 600px;
+}
+
+#button{
+    position: relative;
+    bottom: 6px;
+    left: 2px;
+    
+}
+
+
+
