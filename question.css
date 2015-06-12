@@ -2,7 +2,6 @@
     text-align: center;
     font-family: 'Open Sans';
     font-weight: lighter;
-    
 }
 
 #message{
@@ -18,24 +17,23 @@
     
 }
     
-
 #submit{
     margin-left: 5px;
-    
-}
-
-#logs{
-    font-family: 'Open Sans';
-    display: inline-block;
-    margin-left: 600px;
-}
-
-#button{
+    bottom: 10px;
     position: relative;
-    bottom: 6px;
     left: 2px;
     
 }
+
+#comments{
+    font-family: 'Open Sans';
+    display: block;
+    margin-left: 650px;
+    word-wrap: break-word;
+}
+
+
+
 
 
 
