@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
 <link rel="stylesheet" type="text/css" href="question.css">
-<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-  <meta charset="UTF-8">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,800,400' rel='stylesheet' type='text/css'>  <meta charset="UTF-8">
   <title>Question</title>
   <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
 
@@ -12,18 +11,29 @@
   </style>
 </head>
 <body>
-  <div>
-    <h1 class="question"> What, if anything, is too serious to be joked about? </h1>
-  </div>
-  
-  <div>
-    <input type="submit" id="submit">
-    <div id="comments">
-  </div>
+  <div class="container">
     
-  <div>
-    <textarea id="message" placeholder="Share your thoughts..."></textarea>
+    <div>
+      <h1 class="question">
+        What, if anything, is too serious to be joked about?
+      </h1>
+    </div>
+
+    <div id="comments">
+      <p>Yo, whatup bro</p>
+      <p>Hey, hey!</p>
+    </div>
+
+
+    <div>
+      <textarea id="thought-input" placeholder="Share your thoughts..."></textarea>
+    </div>
+
+    <input type="submit" id="submit">
+    
   </div>
+
+
   
   <script src="question.js"></script>
 
